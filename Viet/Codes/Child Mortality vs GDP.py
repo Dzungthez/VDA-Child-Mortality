@@ -47,7 +47,7 @@ plt.xlabel('GDP Group')
 plt.ylabel('Average Under-five Mortality Rate (per 1000 live births)')
 plt.show()
 
-# Create a single scatter plot with different colors for each continent
+# Scatter plot for each continent
 plt.figure(figsize=(12, 8))
 scatter_plot = sns.scatterplot(x='GDP per capita', y='Under-five mortality rate', hue='Continent', style='Continent', data=data, s=100)
 plt.title('Scatter Plot of Under-five Mortality vs GDP per Capita Across Continents')
